@@ -1,0 +1,141 @@
+name: drmohans_homecare_flutter
+description: Dr Mohan's Home care app for android and iOS
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_riverpod: ^2.4.4
+  flutter_svg: ^2.0.8
+#  pin_code_fields: ^8.0.1
+  persistent_bottom_nav_bar_v2: ^4.2.8
+  image_picker: ^1.0.4
+  dio: ^5.3.3
+  flutter_secure_storage: ^9.0.0
+  json_annotation: ^4.8.1
+  intl: ^0.18.1
+  url_launcher: ^6.2.1
+  geolocator: ^10.1.0
+  loading_animation_widget: ^1.2.0+4
+  firebase_core: ^2.24.0
+  firebase_messaging: ^14.7.6
+  package_info_plus: ^4.2.0
+  geocoding: ^2.1.1
+  connectivity_plus: ^5.0.2
+  permission_handler: ^11.1.0
+  flutter_local_notifications: ^16.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/png/homecare_icon.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/icons/png/
+    - assets/icons/svg/
+    - assets/avatar/svg/
+    - assets/icons/svg/contact_support/
+    - assets/icons/svg/notification/
+    - assets/icons/svg/profile/
+    - assets/images/svg/
+    - assets/icons/svg/punch_in.svg
+    - assets/icons/svg/retake_icon.svg
+    - assets/icons/svg/location_icon.svg
+    - assets/icons/svg/collection_card_tag.svg
+    - assets/icons/svg/calendar_icon.svg
+    - assets/icons/svg/delivery_card_tag.svg
+    - assets/icons/svg/droplet.svg
+    - assets/icons/svg/weightscale.svg
+    - assets/icons/svg/height_meter.svg
+    - assets/icons/svg/green_phone.svg
+    - assets/icons/svg/duration_icon.svg
+    - assets/icons/svg/down_arrow.svg
+    - assets/icons/svg/dash_history.svg
+    - assets/icons/svg/dash_home.svg
+    - assets/icons/svg/dash_trips.svg
+    - assets/icons/svg/distance_icon.svg
+    - assets/icons/svg/show_direction_icon.svg
+    - assets/icons/svg/tick.svg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+
+
+  fonts:
+      - family: Montserrat
+        fonts:
+          - asset: assets/fonts/Montserrat-Bold.ttf
+            weight: 700
+          - asset: assets/fonts/Montserrat-Light.ttf
+            weight: 300
+          - asset: assets/fonts/Montserrat-Medium.ttf
+            weight: 500
+          - asset: assets/fonts/Montserrat-Regular.ttf
+            weight: 400
+          - asset: assets/fonts/Montserrat-SemiBold.ttf
+            weight: 600
+        
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

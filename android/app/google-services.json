@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "249000946435",
+    "project_id": "dr-mohan-s-homecare",
+    "storage_bucket": "dr-mohan-s-homecare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249000946435:android:2d966bcaf4d5fbfd131736",
+        "android_client_info": {
+          "package_name": "com.drmohans.homecare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI-_Zip8Z_wnysUFh-uhHpJZJkTHdKThA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

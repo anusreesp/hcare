@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.958" height="29" viewBox="0 0 25.958 29">
+  <g id="Heigt_meter" data-name="Heigt meter" transform="translate(-2 -0.554)">
+    <rect id="Rectangle_123129" data-name="Rectangle 123129" width="6" height="26" transform="translate(21 2.554)" fill="#fff"/>
+    <circle id="Ellipse_1658" data-name="Ellipse 1658" cx="2.5" cy="2.5" r="2.5" transform="translate(6 10.554)" fill="#fff"/>
+    <path id="Path_37707" data-name="Path 37707" d="M5.6,14h5.192a2.6,2.6,0,0,1,2.6,2.6v7.788H3V16.6A2.6,2.6,0,0,1,5.6,14Z" transform="translate(0.298 3.873)" fill="#fff"/>
+    <rect id="Rectangle_123130" data-name="Rectangle 123130" width="16" height="2" transform="translate(5 6.554)" fill="#0074bf"/>
+    <rect id="Rectangle_123131" data-name="Rectangle 123131" width="3" height="3" transform="translate(18 26.554)" fill="#b9d9f4"/>
+    <rect id="Rectangle_123132" data-name="Rectangle 123132" width="3" height="3" transform="translate(18 21.554)" fill="#b9d9f4"/>
+    <rect id="Rectangle_123133" data-name="Rectangle 123133" width="3" height="3" transform="translate(18 16.554)" fill="#b9d9f4"/>
+    <rect id="Rectangle_123134" data-name="Rectangle 123134" width="3" height="2" transform="translate(18 11.554)" fill="#b9d9f4"/>
+    <rect id="Rectangle_123135" data-name="Rectangle 123135" width="3" height="3" transform="translate(18 0.554)" fill="#b9d9f4"/>
+    <path id="Path_37708" data-name="Path 37708" d="M27.958,29.554H20.171V1h7.788Zm-5.192-2.6h2.6V3.6h-2.6ZM12.383,12.681A3.894,3.894,0,1,0,8.49,16.575,3.894,3.894,0,0,0,12.383,12.681Zm-3.894,1.3a1.3,1.3,0,1,1,1.3-1.3A1.3,1.3,0,0,1,8.49,13.979Zm2.6,2.6H5.894A3.894,3.894,0,0,0,2,20.469v9.085H14.979V20.469A3.894,3.894,0,0,0,11.085,16.575Zm1.3,10.383H4.6v-6.49a1.3,1.3,0,0,1,1.3-1.3h5.192a1.3,1.3,0,0,1,1.3,1.3Z" transform="translate(0 0)" fill="#0074bf"/>
+  </g>
+</svg>
